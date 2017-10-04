@@ -1,1 +1,4 @@
 /vendor/
+
+/dspool-*.tar.gz
+/dspool-bsd

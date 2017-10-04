@@ -18,5 +18,5 @@ maintainer-clean:
 dist:
 	git archive -o dspool-${VERSION}.tar.gz --prefix=dspool/ HEAD
 
-dspool-bsd:
+dspool-bsd: $(wildcard cmd/dspool/*.go)
 	GOOS=freebsd go build -o dspool-bsd felesatra.moe/dspool/cmd/dspool

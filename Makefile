@@ -5,7 +5,7 @@ all: dspool-bsd
 
 .PHONY: clean
 clean:
-	rm -f dspool-bsd
+	rm dspool-bsd
 
 .PHONY: distclean
 distclean: maintainer-clean
